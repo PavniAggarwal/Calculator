@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Files\calculator.css">
+	<script type="text/javascript" src="Files\calculator.js"></script>
+	<title>Calculator</title>
+</head>
+<body>
+	<h1>Calculator</h1>
+	<div class="box">
+	<div class="display"><input type="text" value="0" readonly="true" id="result"></div>
+	<div class="keys">
+		<table border="0" cellspacing="0" cellpadding="0" width=191px>
+			<tr>
+				<td><input type="button" value="AC" class="clear" onclick="clr()" id="c" /></td>
+				<td><input type="button" value=" " onclick="backspace()" class="backspace" id="backspace" /></td>
+				<td><input type="button" value="%" onclick="percentage()"/></td>
+				<td><input type="button" value="÷" class="divide" onclick="divide()"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" onclick="dis('7')"/></td>
+				<td><input type="button" value="8" onclick="dis('8')"/></td>
+				<td><input type="button" value="9" onclick="dis('9')"/></td>
+				<td><input type="button" value="Χ" class="multiply" onclick="multiply()"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="dis('4')"/></td>
+				<td><input type="button" value="5" onclick="dis('5')"/></td>
+				<td><input type="button" value="6" onclick="dis('6')"/></td>
+				<td><input type="button" value="-" class="operator" onclick="subtract()"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" onclick="dis('1')"/></td>
+				<td><input type="button" value="2" onclick="dis('2')"/></td>
+				<td><input type="button" value="3" onclick="dis('3')"/></td>
+				<td><input type="button" value="+" class="operator" onclick="add()"/></td>
+			</tr>
+			<tr>
+				<td><a href="Files\scientific calculator.html"><input type="button" value=" "class="switch"/></a></td>
+				<td><input type="button" value="0" onclick="dis('0')"/></td>
+				<td><input type="button" value="." onclick="decimal()"/></td>
+				<td><input type="button" value="=" class="equals" onclick="equal()"/></td>
+			</tr>
+		</table>
+	</div>	
+	</div>
+</body>
+</html>

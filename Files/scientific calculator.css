@@ -1,0 +1,15 @@
+td{width: 30px ; height: 30px}
+input[type="text"] { height: 50px ; width:187px}
+input[type="button"] { background-color: white ;  width: 100% ; height: 35.71px ; border-width: 0.1px ; border-color: white ; font-size: 15px; font-weight: bold}
+input[type="button"].equals{ background-color: orange ; color: white}
+input[type="button"].clear{ color: orange ; font-weight: bold}
+input[type="button"].operator{ font-size: 17px}
+input[type="button"].divide{font-size: 20px; font-weight: normal}
+input[type="button"].multiply{font-size: 11px}
+input[type="button"].extra{ color: grey; font-weight: normal}
+input[type="button"].pi{background-image: url(pi.JPG); background-repeat: no-repeat; background-size: 70%; background-position: center}
+input[type="button"].power{color: grey ; font-weight: normal ; font-size: 18px}
+input[type="button"].exponent{background-image: url(exponent.JPG); background-repeat: no-repeat; background-size: 80%; background-position: center}
+input[type="button"].root{background-image: url(root.JPG); background-repeat: no-repeat; background-size: 80%; background-position: center}
+input[type="button"].backspace{background-image: url(backspace.JPG); background-repeat: no-repeat; background-size: 110%; background-position: center}
+input[type="button"].switch{background-image: url(convert.JPG); background-repeat: no-repeat; background-size: 80%; background-position: center}
